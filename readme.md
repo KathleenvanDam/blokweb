@@ -63,7 +63,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Breakdownschets (week 1)
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
-
+<img src="images/breakdownschets.svg" width="375px" alt="Breakdownschets Nintendo">
 
 
 ## Intake (week 1)
@@ -73,12 +73,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** surface plane
 
-**Je opdracht:** https://www.playstation.com/nl-nl/
+**Je opdracht:** https://www.nintendo.com
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/IMG_6008.svg" width="375px" alt="Homepage Playstation">
+<img src="images/IMG_6011.svg" width="375px" alt="Homepage Nintendo">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/IMG_6013.svg" width="375px" alt="Alle games Playstation">
+<img src="images/IMG_6017.svg" width="375px" alt="News Nintendo">
