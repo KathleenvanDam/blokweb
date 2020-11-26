@@ -38,25 +38,32 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+**Ging goed**
+- Na wat hulp gevraagd te hebben kwam ik goed op gang en vooral position en flexbox vond ik interessant om mee te werken. Wanneer ik dit een beetje onder controle had voelde het alsof ik al zoveel verder kon met het namaken van de website.
+
+**Ging fout**
+- Waar ik op vast liep is om eigenlijk de oude stof ook toe te blijven passen. Wanneer we iets nieuws geleerd hebben vergeet ik alles wat ervoor kwam en kom ik er niet uit hoe ik iets in mijn css werkende krijg. Vooral uitlijnen is ook iets waar ik moeite mee had.
+
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+-screenshot(s) van hoe ver je bent met
+
+-Ik heb het menu toegevoegd en sticky gemaakt. Er is een banner toegevoegd met de tekst en een button. Er zijn want afbeeldingen toegevoegd en de bijbehorende tekst staat er allemaal in. Sommige delen hebben nog wat opmaak nodig.
 
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
+| Ruben          | Jordi              | Marijn       | Kathleen         |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Responsive     | Slider             | Uitlijning & afbeeldingen   | Uitlijning       |
+
 
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
+We merken dat het allemaal kleine dingen zijn waar we vastlopen. Hierbij zouden we goed elkaar kunnen helpen of makkelijk hulp vragen.
 
 
 

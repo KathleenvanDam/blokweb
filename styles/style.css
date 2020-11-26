@@ -6,7 +6,12 @@ html{
 
 body{
     margin:0;
-    font-family: sans-serif;
+    font-family: "Museo Sans";
+}
+
+hr{
+    opacity: 0.3;
+    margin:.2em;
 }
 
 a {
@@ -17,19 +22,53 @@ a {
     width:100%;
 }
 
+nav{
+    position:sticky;
+    top:0;
+    background-color:white;
+}
 
 nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:0; padding:0;
+    margin:0;
+    padding:0;
     list-style-type: none;
 }
 
 nav ul li{
     text-decoration: none;
     display:flex;
+    font-weight: 500;
+    font-size: .8em;
 
+}
+
+nav ul li img{
+    padding:0;
+    margin: 0;
+    width:100px;
+    height: 50px;
+}
+
+.login{
+    margin-left:auto;
+    margin-right:1em;
+}
+
+.login img{
+    width:18px;
+    height:22px;
+    margin-right:.3em;
+    margin-top:1em
+}
+
+.menu img{
+    width:27px;
+    height:22px;
+    margin-right:3em;
+    margin-top:1em;
 }
 
 
@@ -37,20 +76,206 @@ nav ul li{
     display:flex;
     justify-content: center;
     align-items:center;
+    padding: .3em;
+    margin:0;
 }
 
 .info-bar h2{
-    margin-right:auto;
+    font-size:1.3em;
 }
 
 a.button{
-    background-color:red;
+    display:flex;
+    width:10em;
+    height:3em;
+    background-color:#e60012;
     text-decoration: none;
     color:white;
-    font-weight: bold;
-    font-family: sans-serif;
-    text-align: center;
-    padding:.1em 5em;
     margin:1em;
+    font-family: "Museo Sans";
+    font-weight: bold;
+    justify-content: center;
+    align-items:center;
     border-radius:5px;
+}
+
+.gamestore {
+    position:relative;
+    background-color:#e60012;
+    width:20em;
+    height: 13em;
+    margin:3em .5em;
+    padding: 10em 1.6em 1em 1em;
+    text-align: center;
+    color:white;
+    border-radius:5px;;
+}
+
+.gamestore h2{
+    margin:2.6em 0em 0em 0em;
+}
+
+.gamestore img{
+    position:absolute;
+    width:10em;
+    height:9em;
+    top:1.5em;
+    left:6em;
+    transform:rotate(-15deg);
+}
+
+.gamestore a{
+    background-color:rgba(67,8,8, 0.5);
+    padding:.7em 0em 0em 1em;
+    position:absolute;
+    left:1em;
+    bottom:1em;
+    width:20em;
+    height:2em;
+    color:white;
+    font-weight: 500;
+    text-align: left;
+    border-radius:5px;
+    letter-spacing: normal;
+}
+
+.explore{
+    margin:3em .5em;
+}
+
+.explore h1{
+    font-size:1.6rem;
+    font-weight:500;
+    color:#3c3c3c
+}
+
+.explore img{
+    width:22.5em;
+    border-radius: 5px;
+}
+
+.explore h2{
+    margin: .4em 0em .0em .1em;
+    color:#3c3c3c;
+    font-weight: 500;
+}
+
+.explore a{
+    display:flex;
+    width:15em;
+    height:3em;
+    background-color:#e60012;
+    text-decoration: none;
+    color:white;
+    font-family: "Museo Sans";
+    font-size:15px;
+    justify-content: flex-start;
+    align-items:center;
+    border-radius:5px;
+    margin-top:1em;
+    letter-spacing: normal;
+    font-weight: 500;
+    padding-left:1em;
+}
+
+.trending-games{
+    margin: 3em .5em;
+}
+
+.trending-games ul{
+    overflow:scroll;
+    display:flex;
+    padding:0;
+}
+
+.trending-games ul li{
+    list-style-type:none;
+    min-width:50vw;
+    padding-left:1em;
+}
+
+.trending-games ul li img{
+    width:13em;
+    border-radius: 5px;
+}
+
+.trending-games h3{
+    margin-left:.5em;
+    font-size:1.5em;
+}
+
+li p:nth-of-type(1){
+    font-weight: 100;
+    margin:.2em 0em 1em 0em;
+}
+
+li p:nth-of-type(2){
+    font-size:1.4em;
+    color:#484848;
+}
+
+li p:nth-of-type(3){
+    font-weight: 100;
+}
+
+article h2{
+    font-size:1.5em;
+    margin-left:.5em;
+}
+
+article p{
+    padding-left:.5em;
+    margin-top:.9em;
+}
+
+article p:nth-of-type(1){
+    font-style: italic;
+    font-weight: 100;
+}
+
+article p:nth-of-type(3){
+    font-weight:100;
+}
+
+article h2{
+    margin-bottom:.2em;
+}
+
+article a img{
+    padding:.5em;
+    width:96vw;
+}
+
+.more-news{
+    display:flex;
+    width:22.5em;
+    height:2.7em;
+    background-color:#e60012;
+    text-decoration: none;
+    color:white;
+    margin:1em .5em 2em .5em;
+    font-family: "Museo Sans";
+    font-weight: bold;
+    justify-content: center;
+    align-items:center;
+    border-radius:5px;
+}
+
+.char ul{
+    display:flex;
+    height:50vh;
+    flex-wrap:wrap;
+    padding:1em;
+}
+
+.char ul li{
+    list-style-type:none;
+    margin:0em;
+    text-align:left;
+    padding:0;
+}
+
+.char ul li img{
+    max-width:35vw;
+    display:flex;
 }
