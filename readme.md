@@ -6,8 +6,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
+1. https://flexbox.io
+2. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 3. -...-
 
 
@@ -30,7 +30,27 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+**Ging goed**
+- Na even wat proberen en een beetje hulp was ik onwijs blij hoe mijn foto's meeschaalde als ik mijn website vergrootte en verkleinde. Hierdoor heb ik meteen al mijn afbeeldingen er in kunnen zetten en ziet de site er een stuk netter uit. Ik merk dat ik het leuk vind om alles responsive te maken en om te werken met grid. 
+
+**Ging fout**
+- Ik heb nog steeds last met het uitlijnen van elementen. Ik weet niet zo goed hoe het komt dat ik overal ruimte overhoud als ik nergens een padding of margin op heb zitten. 
+- Ik had in de eerste instantie moeite met SVG's omdat ik hiervan de code zelf in mijn HTML wilde zetten alleen sommige images waren enorm waardoor dit niet kon. Hierna heb ik gewoon de link gebruikt en de width in css op 100% gezet. 
+
+
+**Screenshot(s):**
+
+-screenshot(s) van hoe ver je bent met
+
+-Ik heb al mijn afbeeldingen responsive gemaakt en nieuwe afbeeldingen toegevoegd waardoor alles er completer uitziet. Ook heb ik wat aanpassingen gemaakt in mijn grid bij de characters waardoor de tekst nu mooi mee schaalt. 
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+| Ruben          | Jordi              | Marijn       | Kathleen         |
+| ---            | ---                | ---          | ---              |
+| Grid           | ?                  | ?            | Overige ruimte   |
 
 
 
