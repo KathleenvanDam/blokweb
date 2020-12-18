@@ -24,9 +24,32 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+**Ging goed**
+- Eerlijk gezegd krijg ik momenteel niks goed. Het enige wat momenteel goed is is dat ik zin heb om alles op te lossen en ermee aan de slag te gaan om het wel goed te krijgen. 
+- Het was wel gelukt een media query erin te krijgen bij het grid dus dat staat nu gelijk aan de website van nintendo. 
+- Bij de les vorige week hebben we aan de hand van borders nu lijnen toegevoegd aan de website waardoor er onderscheid is tussen de verschillende secties. 
+
+**Ging fout**
+- 1 ding dat niet zo goed gaat is het grid. Ik wil de overlay img goed krijgen want deze schaalt niet goed mee. 
+- De banner img en 1e img van trending games zijn hetzelfde waardoor ik allebei de images beinvloed wanneer ik een width wil zetten. Nou wil ik dit alleen op de trending games doen en niet op de banner, maar dit is me nog niet bepaald gelukt. Ook probeer ik uit te zoeken hoe de afbeeldingen van trending games niet te ver meeschalen aangezien die maar een bepaalde max-width behouden. 
 
 
+**Screenshot(s):**
+
+-screenshot(s) van hoe ver je bent met
+
+- Media queries toegevoegd waardoor het grid nu naast elkaar komt te staan zodra de website breder wordt. 
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+| Ruben          | Jordi              | Marijn       | Kathleen         |
+| ---            | ---                | ---          | ---              |
+|                |                    |              | Overylay img   |
+
+## Screen reader opdracht
+- Ik kwam er achter dat mijn hele website niet eens werkt met een screenreader. Wanneer hij het menu van de browser en de tabbladen is afggegaan begint hij gewoon weer opnieuw. Het enige wat hij doet is aangeven wat voor website het is, maar hij pakt niet de elementen zoals het logo en de navigatie of headers. Ik weet niet goed waardoor dit komt maar het moet wel aangepast worden. 
 
 ## Voortgang 2 (week 5)
 
@@ -50,7 +73,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 | Ruben          | Jordi              | Marijn       | Kathleen         |
 | ---            | ---                | ---          | ---              |
-| Grid           | ?                  | ?            | Overige ruimte   |
+| Grid           | Hele website is aangepast | Uitlijning            | Overige ruimte   |
 
 
 
