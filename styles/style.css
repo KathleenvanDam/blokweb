@@ -9,16 +9,34 @@ body {
     font-family: "Museo Sans";
 }
 
-section a img:nth-of-type(1){
-    width:100%
-}
-
 a {
     color: black;
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;
     width: 100%;
+}
+
+section{
+    border: 1px solid #ccc;
+    border-width: 0 0 1px 0;
+    padding-bottom: 3em;
+}
+
+article{
+    border: 1px solid #ccc;
+    border-width: 0 0 1px 0;
+    padding-bottom: 3em;
+}
+
+/*-----Navigatie-----*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    margin-right:1em;
 }
 
 nav {
@@ -29,11 +47,8 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin: 0;
     padding: 0;
-    list-style-type: none;
 }
 
 nav ul li {
@@ -62,18 +77,15 @@ nav ul li img {
     width: 1px;
   }
 
-.logo svg{
+.logo{
     padding:0;
     margin:0;
-    width:9em;
-    height:100%;
+    width:13%;
 }
 
 .login {
     margin-left: auto;
     margin-right:.5em;
-    display: flex;
-    justify-content: center;
 }
 
 .login p:nth-of-type(1){
@@ -86,18 +98,11 @@ nav ul li img {
     height: 22px;
 }
 
-section{
-    border: 1px solid #ccc;
-    border-width: 0 0 1px 0;
-    padding-bottom: 2em;
-}
+/*-----banner+available------*/
 
-article{
-    border: 1px solid #ccc;
-    border-width: 0 0 1px 0;
-    padding-bottom: 2em;
+.banner{
+    width:100%
 }
-
 
 .info-bar {
     display: flex;
@@ -108,12 +113,13 @@ article{
 }
 
 .info-bar h2 {
-    font-size: 1.3em;
+    font-size: 1.8em;
+    color:#555555;
 }
 
 a.button {
     display: flex;
-    width: 10em;
+    width: 8.5em;
     height: 3em;
     background-color: #e60012;
     text-decoration: none;
@@ -126,6 +132,8 @@ a.button {
     border-radius: 5px;
 }
 
+/*-----GAMESTORE-----*/
+
 .gamestore {
     display:flex;
     flex-direction: column;
@@ -133,7 +141,7 @@ a.button {
     justify-content: center;
     position: relative;
     background-color: #e60012;
-    margin: 3em .5em;
+    margin: 3em 1em;
     text-align: center;
     color: white;
     border-radius: 5px;
@@ -169,6 +177,8 @@ a.button {
     right: 2em;
 }
 
+/*---Bron grid column/row: https://css-tricks.com/snippets/css/complete-guide-grid/---*/
+
 @media (min-width: 30em){
     .gamestore{
         display:grid;
@@ -191,12 +201,27 @@ a.button {
     .gamestore{
         display:flex;
         flex-direction: row;
+        height:18vh;
+    }
+    .gamestore img{
+        width:10vw;
+        margin: 1em 1em 2em 3em;
+    }
+    .gamestore h2{
+        margin:1em;
     }
 }
 
+@media (min-width:1250px){
+    .gamestore{
+        margin:10em;
+    }
+}
+
+/*-----CONSOLES-----*/
+
 .explore {
-    margin: 3em .5em;
-    display:flex;
+    margin: 3em 1em;
     flex-direction: column;
 }
 
@@ -207,14 +232,23 @@ a.button {
 }
 
 .explore img {
-    width: 100%;
-    border-radius: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    border-radius: 10px;
 }
 
 .explore h2 {
-    margin: .4em 0em .0em .1em;
+    margin: 1em 0;
     color: #3c3c3c;
     font-weight: 500;
+    font-size: 1.7em;
+}
+
+@media (min-width:570px){
+    .explore h2{
+        font-size:2.5em
+    }
 }
 
 .explore a {
@@ -235,6 +269,14 @@ a.button {
     padding-left: 1em;
 }
 
+@media (min-width:1250px){
+    .explore{
+        margin:10em;
+    }
+}
+
+/*-----TRENDING-----*/
+
 .trending-games {
     margin: 3em .5em;
 }
@@ -243,11 +285,13 @@ a.button {
     overflow: scroll;
     display: flex;
     padding: 0;
+    justify-content: space-between;
 }
 
 .trending-games ul li {
     list-style-type: none;
-    padding-right: 2em;
+    min-width:40vw;
+    margin-right:2em;
 }
 
 .trending-games ul li img {
@@ -259,6 +303,14 @@ a.button {
     margin-left: .5em;
     font-size: 1.5em;
 }
+
+@media (min-width:1250px){
+    .trending-games{
+        margin:10em;
+    }
+}
+
+/*-----NEWS-----*/
 
 li p:nth-of-type(1) {
     font-weight: 100;
@@ -317,6 +369,8 @@ article a img {
     border-radius: 5px;
 }
 
+/*----CHARACTERS-----*/
+
 .char h2{
     padding:.5em;
     margin-bottom:.5em;
@@ -344,12 +398,19 @@ article a img {
 .char ul li img:nth-of-type(2) {
     position: absolute;
     left: .1em;
+    width:100%
 }
 
 @media (min-width: 35em){
     .char ul{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width:1153px){
+    .char{
+        margin:10em;
     }
 }
 

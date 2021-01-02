@@ -28,6 +28,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 - Eerlijk gezegd krijg ik momenteel niks goed. Het enige wat momenteel goed is is dat ik zin heb om alles op te lossen en ermee aan de slag te gaan om het wel goed te krijgen. 
 - Het was wel gelukt een media query erin te krijgen bij het grid dus dat staat nu gelijk aan de website van nintendo. 
 - Bij de les vorige week hebben we aan de hand van borders nu lijnen toegevoegd aan de website waardoor er onderscheid is tussen de verschillende secties. 
+- Na het voortgangsgesprek zijn de images van trending games gefixt en schalen ook de overlay images van het grid mee. 
 
 **Ging fout**
 - 1 ding dat niet zo goed gaat is het grid. Ik wil de overlay img goed krijgen want deze schaalt niet goed mee. 
