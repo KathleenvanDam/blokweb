@@ -37,6 +37,7 @@ header{
     align-items: center;
     text-decoration: none;
     margin-right:1em;
+    height:4em;
 }
 
 nav {
@@ -62,7 +63,6 @@ nav ul li {
 nav ul li img {
     padding: 0;
     margin: 0;
-    width: 100px;
     height: 100%;
 }
 
@@ -80,12 +80,20 @@ nav ul li img {
 .logo{
     padding:0;
     margin:0;
-    width:13%;
+    max-width: 100%;
+    height:4em;
+}
+
+@media(min-width:768){
+    .logo{
+        max-width:30%;
+    }
 }
 
 .login {
     margin-left: auto;
     margin-right:.5em;
+    width:100%;
 }
 
 .login p:nth-of-type(1){
@@ -94,8 +102,8 @@ nav ul li img {
 }
 
 .menu img {
-    width: 27px;
-    height: 22px;
+    width: 2em;
+    height: 2em;
 }
 
 /*-----banner+available------*/
@@ -277,6 +285,10 @@ a.button {
 
 /*-----TRENDING-----*/
 
+.trending-games h2{
+    margin-left:0;
+}
+
 .trending-games {
     margin: 3em .5em;
 }
@@ -296,7 +308,8 @@ a.button {
 
 .trending-games ul li img {
     border-radius: 5px;
-    max-width: 100%;
+    width: 100%;
+    min-width:30%;
 }
 
 .trending-games h3 {
@@ -309,8 +322,6 @@ a.button {
         margin:10em;
     }
 }
-
-/*-----NEWS-----*/
 
 li p:nth-of-type(1) {
     font-weight: 100;
@@ -326,9 +337,11 @@ li p:nth-of-type(3) {
     font-weight: 100;
 }
 
-article h2 {
+/*-----NEWS-----*/
+
+h2 {
     font-size: 1.5em;
-    margin-left: .5em;
+    margin-left: 1.7em;
 }
 
 article p {
@@ -351,12 +364,13 @@ article h2 {
 
 article a img {
     padding: .5em;
-    width: 96vw;
+    width: 100%;
+    border-radius: 15px;
 }
 
 .more-news {
     display: flex;
-    width: 22.5em;
+    width: 100%;
     height: 2.7em;
     background-color: #e60012;
     text-decoration: none;
@@ -367,6 +381,15 @@ article a img {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+}
+
+@media (min-width:570px){
+    .front-news{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:2em;
+        margin: 0 2em;
+    }
 }
 
 /*----CHARACTERS-----*/
@@ -414,3 +437,108 @@ article a img {
     }
 }
 
+.info{
+    background-color:#f2f1f1;
+    margin:0;
+    padding:0;
+}
+
+.info li{
+    list-style-type: none;
+    color:#2576bc;
+    padding:1em;
+    font-size:1.4em;
+    font-weight:500;
+    border: 1px solid #ccc;
+    border-width: 0 0 1px 0;
+}
+
+.contact, .social{
+    background-color:#3c3c3c;
+    margin:0;
+    padding:1em;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1em;
+}
+
+.social{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:.2em;
+    margin:0;
+}
+
+.contact, .social {
+    list-style-type: none;
+}
+
+.contact li, .social li{
+    justify-self: center;
+}
+
+.contact li a, .social li a{
+    color:white;
+}
+
+.social img{
+    width:50%;
+    border-radius: 10px;
+}
+
+
+/*-----NEWS PAGE-----*/
+
+h1{
+    background-color:#f2f1f1;
+    margin:0;
+    font-weight: 300;
+    text-align: left;
+    padding-left:.8em;
+    padding-top:.3em;
+    font-size:4em;
+    color:#555555
+}
+
+.news{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:1em;
+    background-color: #f2f1f1;
+    margin:0;
+    padding:0;
+}
+
+.news img{
+    width:100%;
+}
+
+.news article{
+    margin: 0.4em 3em 1em 3em;
+    border: 1px solid #dfdfdf;
+    width:22vw;
+    padding-bottom:2em;
+}
+
+.news article:hover{
+    border: 1px solid #e60012;
+}
+
+.read-more{
+    color:#2576bc;
+    font-weight: 500;
+    padding:0;
+    margin-left:.4em;
+}
+
+.news h3{
+    margin:.4em;
+}
+
+.news p{
+    font-weight:300;
+    color:#555555;
+}
