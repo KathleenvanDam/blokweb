@@ -25,10 +25,10 @@ Een ander probleem was het goedkrijgen van de foto's bij trending games. Deze sc
 **Screenshot(s):**
 
 Pagina 1
-<img src="images/eindresultaat-p1" width="375px" alt="Eindresultaat Nintendo">
+<img src="images/eindresultaat-p1.svg" width="375px" alt="Eindresultaat Nintendo">
 
 Pagina 2
-<img src="images/eindresultaat-p2" width="375px" alt="Eindresultaat Nintendo">
+<img src="images/eindresultaat-p2.svg" width="375px" alt="Eindresultaat Nintendo">
 
 ## Voortgang 3 (week 6)
 
