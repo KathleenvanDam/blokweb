@@ -14,13 +14,21 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+**Ging goed**
+Na wat hulp heb ik het grid op de tweede pagina beter gekregen en begrijp ik dat nu ook beter. Verder heb ik eindelijk mijn navigatie uitgelijnd te krijgen en ziet het logo er normaal uit. Ook had ik erg veel moeite met de login icon, maar na hier een svg te voor hebben gebruikt valt dit er beter in. 
+
+**Ging fout**
+Het viel me op dat ik een dubbele navigatie had. Wanneer het scherm breed is, komt er een extra navigatie, en wanneer er een smal scherm is verschijnt er een hamburger. Nou merkte ik dat voor mij de Javascript niet lekker ging door deze dubbele navigatie. Waar ik nog het meest moeite mee had was het terugslaan van de Javascript op de HTML en CSS. 
+
+Een ander probleem was het goedkrijgen van de foto's bij trending games. Deze schalen wel, maar worden iets te groot. 
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+Pagina 1
+<img src="images/eindresultaat-p1" width="375px" alt="Eindresultaat Nintendo">
 
-
+Pagina 2
+<img src="images/eindresultaat-p2" width="375px" alt="Eindresultaat Nintendo">
 
 ## Voortgang 3 (week 6)
 
