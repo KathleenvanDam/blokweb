@@ -6,7 +6,7 @@ var navigatie = document.querySelector(".subNav");
 button.addEventListener("click", uitschuiven);
 
 function uitschuiven(){
-    document.body.classList.toggle('active');
+    navigatie.classList.toggle('active');
 }
 
 
