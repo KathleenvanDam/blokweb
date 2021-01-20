@@ -70,12 +70,6 @@ header {
     height: 4em;
 }
 
-@media(min-width:768) {
-    .logo {
-        max-width: 30%;
-    }
-}
-
 .login {
     margin-left: auto;
     width: 100%;
@@ -369,7 +363,7 @@ li p:nth-of-type(3) {
 /*-----FRONT NEWS-----*/
 
 .front-news{
-    margin: 3em, .5em;
+    margin: 3em .5em;
 }
 
 h2 {

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="97" height="27" viewBox="0 0 97 27">
+  <g id="Group_2" data-name="Group 2" transform="translate(-70 -1012)">
+    <circle id="Ellipse_71" data-name="Ellipse 71" cx="7.5" cy="7.5" r="7.5" transform="translate(74 1012)" fill="#484848"/>
+    <path id="Rectangle_110" data-name="Rectangle 110" d="M9,0h4a9,9,0,0,1,9,9V9a0,0,0,0,1,0,0H0A0,0,0,0,1,0,9V9A9,9,0,0,1,9,0Z" transform="translate(70 1029)" fill="#484848"/>
+    <text id="Log_in" data-name="Log in" transform="translate(103 1019)" fill="#484848" font-size="17" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="16">Log in</tspan></text>
+  </g>
+</svg>

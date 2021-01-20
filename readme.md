@@ -23,6 +23,8 @@ Bij het eindgesprek bleek dat ik mij beter had kunnen focussen op de kleine ding
 - Navigatie in de header verwijderd en alleen linkjes van gemaakt. 
 - News item aangepast zodat deze niet hetzelfde waren. 
 - Footer achtergrondkleur gegeven en tekstkleur aangepast. 
+- News Images gefixt na een foutmelding binnen CSS die ik nooit ontdekt had en al niet snapte waarom de images maar niet lekker liepen. 
+- H3 toegevoegd en hidden binnen de articles.
 
 ## Eindgesprek (week 7/8)
 
