@@ -1,16 +1,28 @@
 # Procesverslag
 **Auteur:** Kathleen van Dam
 
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-
-
 ## Bronnenlijst
 1. https://flexbox.io
 2. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-3. -...-
+3. https://css-tricks.com/snippets/css/using-font-face/ 
+4. https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/ 
+5. https://css-tricks.com/snippets/css/complete-guide-grid/ 
+6. https://www.youtube.com/watch?v=Mvu5OMGcdVA
 
+## Herkansing 
 
+Bij het eindgesprek bleek dat ik mij beter had kunnen focussen op de kleine dingen die nog afgemaakt moesten worden dan het proberen te fixen van de Javascript. Nadat we erachter kwamen wat hier fout ging ben ik meteen aan de slag gegaan met de Javascript en heb daarna vervolgens ook de kleine dingen gefixt. Sinds het vorige gesprek heb ik de volgende aanpassingen gemaakt: 
+
+**Aanpassingen**
+- Hamburgermenu klikbaar gemaakt met Javascript en het verschijnen van een subnavigatie. 
+- Errors fixen door bij elke image een alt tag toe te voegen.
+- News page responsive gemaakt.
+- Log in icon uitgelijnd naar rechts. 
+- focus state toegevoegd. 
+- Footer elementen klikbaar gemaakt. 
+- Navigatie in de header verwijderd en alleen linkjes van gemaakt. 
+- News item aangepast zodat deze niet hetzelfde waren. 
+- Footer achtergrondkleur gegeven en tekstkleur aangepast. 
 
 ## Eindgesprek (week 7/8)
 
@@ -44,9 +56,6 @@ Pagina 2
 
 
 **Screenshot(s):**
-
--screenshot(s) van hoe ver je bent met
-
 - Media queries toegevoegd waardoor het grid nu naast elkaar komt te staan zodra de website breder wordt. 
 
 ### Agenda voor meeting
@@ -54,8 +63,8 @@ Pagina 2
 -samen met je groepje opstellen-
 
 | Ruben          | Jordi              | Marijn       | Kathleen         |
-| ---            | ---                | ---          | ---              |
-|                |                    |              | Overylay img   |
+| Javascript     | ---                | Hele website | overlay img      |
+|                |                    |              | Overylay img     |
 
 ## Screen reader opdracht
 - Ik kwam er achter dat mijn hele website niet eens werkt met een screenreader. Wanneer hij het menu van de browser en de tabbladen is afggegaan begint hij gewoon weer opnieuw. Het enige wat hij doet is aangeven wat voor website het is, maar hij pakt niet de elementen zoals het logo en de navigatie of headers. Ik weet niet goed waardoor dit komt maar het moet wel aangepast worden. 
@@ -71,9 +80,6 @@ Pagina 2
 
 
 **Screenshot(s):**
-
--screenshot(s) van hoe ver je bent met
-
 -Ik heb al mijn afbeeldingen responsive gemaakt en nieuwe afbeeldingen toegevoegd waardoor alles er completer uitziet. Ook heb ik wat aanpassingen gemaakt in mijn grid bij de characters waardoor de tekst nu mooi mee schaalt. 
 
 ### Agenda voor meeting
@@ -98,9 +104,6 @@ Pagina 2
 
 
 **Screenshot(s):**
-
--screenshot(s) van hoe ver je bent met
-
 -Ik heb het menu toegevoegd en sticky gemaakt. Er is een banner toegevoegd met de tekst en een button. Er zijn want afbeeldingen toegevoegd en de bijbehorende tekst staat er allemaal in. Sommige delen hebben nog wat opmaak nodig.
 
 ### Agenda voor meeting
@@ -130,7 +133,7 @@ We merken dat het allemaal kleine dingen zijn waar we vastlopen. Hierbij zouden 
 
 **Je startniveau:** Rood
 
-**Je focus:** surface plane
+**Je focus:** responsive 
 
 **Je opdracht:** https://www.nintendo.com
 

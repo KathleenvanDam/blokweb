@@ -6,12 +6,14 @@ html {
 
 body {
     margin: 0;
+    padding: 0;
     font-family: "Museo Sans", sans-serif;
 }
 
 /* Bron: https://css-tricks.com/snippets/css/using-font-face/ */
 @font-face {
-    font-family: 'Museo Sans';
+    font-family: "Museo Sans";
+    src: url('museo_sans_ssv');
     src: url('MuseoSans-100.otf') format('otf'),
         url('MuseoSans-300.otf') format('otf'),
         url('MuseoSans-500.otf') format('otf'),
@@ -24,6 +26,14 @@ a {
     text-decoration: none;
     display: inline-block;
     width: 100%;
+}
+
+/*Bron: https://www.youtube.com/watch?v=Mvu5OMGcdVA -----*/
+
+a:focus{
+    outline: 5px solid rgba(255, 0, 0, 0.5);
+    outline-offset: 2px;
+    border-radius: 5px;
 }
 
 section {
@@ -39,38 +49,10 @@ header {
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
-    margin-right: 1em;
     height: 4em;
 }
 
-nav {
-    position: sticky;
-    top: 0;
-    background-color: white;
-}
-
-nav ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    text-decoration: none;
-    display: flex;
-    font-weight: 500;
-    font-size: .8em;
-
-}
-
-nav ul li img {
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    height: 100%;
-}
-
-/* Bron: https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/*/
+/* Bron: https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/ ---*/
 .visually-hidden {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
@@ -97,19 +79,12 @@ nav ul li img {
 .login {
     margin-left: auto;
     width: 100%;
+    text-align: end;
 }
 
 .menu img {
     width: 2em;
     height: 2em;
-}
-
-nav ul li div{
-    border: 2px solid gray;
-    padding: 2rem;
-    margin:1rem;
-    opacity:0;
-    transition:1s;
 }
 
 button{
@@ -120,14 +95,13 @@ button{
 
 .subNav{
     position: absolute;
-    z-index:1;
     background-color:#ffffff;
     padding: 3em;
     top: 4em;
     height: 100%;
     width:100%;
     transition:0.4s;
-    transform: translateX(-110%);
+    transform: translateY(-180%);
 }
 
 .subNav a{
@@ -392,7 +366,11 @@ li p:nth-of-type(3) {
     font-weight: 100;
 }
 
-/*-----NEWS-----*/
+/*-----FRONT NEWS-----*/
+
+.front-news{
+    margin: 3em, .5em;
+}
 
 h2 {
     font-size: 1.5em;
@@ -506,16 +484,20 @@ article a img {
 
 /*-----FOOTER-----*/
 
+footer{
+    background-color: #3c3c3c;
+}
+
 .info {
     background-color: #f2f1f1;
     margin: 0;
     padding: 0;
 }
 
-.info li {
+.info li a{
     list-style-type: none;
     color: #2576bc;
-    padding: 1em;
+    padding: 1em 0;
     font-size: 1.4em;
     font-weight: 500;
     border: 1px solid #ccc;
@@ -524,7 +506,6 @@ article a img {
 
 .contact,
 .social {
-    background-color: #3c3c3c;
     margin: 0;
     padding: 1em;
 }
@@ -558,6 +539,13 @@ article a img {
 .social img {
     width: 80%;
     border-radius: 10px;
+}
+
+footer p{
+    text-align: center;
+    color: #b5b5b5;
+    font-size: .8em;
+    padding: 1em;
 }
 
 
